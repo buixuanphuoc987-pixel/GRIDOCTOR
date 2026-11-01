@@ -12,7 +12,7 @@ from ultralytics import YOLO
 # 1. CẤU HÌNH HỆ THỐNG
 # =========================================================
 
-MODEL_PATH = "runs/classify/runs/melon_classifier/weights/best.pt"
+MODEL_PATH = "best.pt"
 VECTOR_FOLDER = "vector_db"
 
 CONFIDENCE_THRESHOLD = 0.70
